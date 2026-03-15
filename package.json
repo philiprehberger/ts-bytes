@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/ts-bytes-ts.git"
+    "url": "git+https://github.com/philiprehberger/ts-bytes.git"
   },
-  "homepage": "https://github.com/philiprehberger/ts-bytes-ts#readme",
+  "homepage": "https://github.com/philiprehberger/ts-bytes#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/ts-bytes-ts/issues"
+    "url": "https://github.com/philiprehberger/ts-bytes/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
