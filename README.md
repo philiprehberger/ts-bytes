@@ -1,6 +1,6 @@
 # @philiprehberger/ts-bytes
 
-[![CI](https://github.com/philiprehberger/ts-bytes/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-bytes/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-bytes/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-bytes/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-bytes.svg)](https://www.npmjs.com/package/@philiprehberger/ts-bytes)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-bytes)](LICENSE)
 
@@ -52,6 +52,15 @@ isSmallerThan('100 KB', '1 MB'); // true
 | `isSmallerThan(a, b)` | Compare two byte values |
 | `KB`, `MB`, `GB`, `TB`, `PB` | Decimal unit constants |
 | `KiB`, `MiB`, `GiB`, `TiB`, `PiB` | Binary unit constants |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
