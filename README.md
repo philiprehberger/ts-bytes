@@ -1,5 +1,9 @@
 # @philiprehberger/bytes-ts
 
+[![CI](https://github.com/philiprehberger/bytes-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/bytes-ts/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/bytes-ts.svg)](https://www.npmjs.com/package/@philiprehberger/bytes-ts)
+[![License](https://img.shields.io/github/license/philiprehberger/bytes-ts)](LICENSE)
+
 Parse and format byte sizes for humans.
 
 ## Installation
