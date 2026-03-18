@@ -1,21 +1,21 @@
-# @philiprehberger/ts-bytes
+# @philiprehberger/bytes-ts
 
 [![CI](https://github.com/philiprehberger/ts-bytes/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-bytes/actions/workflows/publish.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-bytes.svg)](https://www.npmjs.com/package/@philiprehberger/ts-bytes)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/bytes-ts.svg)](https://www.npmjs.com/package/@philiprehberger/bytes-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-bytes)](LICENSE)
 
-Parse and format byte sizes for humans.
+Parse and format byte sizes for humans
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/ts-bytes
+npm install @philiprehberger/bytes-ts
 ```
 
 ## Usage
 
 ```ts
-import { parseBytes, formatBytes, MB } from '@philiprehberger/ts-bytes';
+import { parseBytes, formatBytes, MB } from '@philiprehberger/bytes-ts';
 
 parseBytes('1.5 GB');                     // 1500000000
 formatBytes(1500000000);                  // "1.5 GB"
@@ -27,7 +27,7 @@ formatBytes(1234, { precision: 3 });      // "1.234 KB"
 ### Binary vs Decimal
 
 ```ts
-import { formatBytes, GiB } from '@philiprehberger/ts-bytes';
+import { formatBytes, GiB } from '@philiprehberger/bytes-ts';
 
 formatBytes(1 * GiB);                    // "1.07 GB"
 formatBytes(1 * GiB, { binary: true });  // "1 GiB"
@@ -36,7 +36,7 @@ formatBytes(1 * GiB, { binary: true });  // "1 GiB"
 ### Comparison
 
 ```ts
-import { isLargerThan, isSmallerThan } from '@philiprehberger/ts-bytes';
+import { isLargerThan, isSmallerThan } from '@philiprehberger/bytes-ts';
 
 isLargerThan('1 GB', '500 MB');  // true
 isSmallerThan('100 KB', '1 MB'); // true
