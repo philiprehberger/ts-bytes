@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+
+- Fix README to use correct npm package name `@philiprehberger/bytes-ts`
+- Fix CI badge to reference ci.yml
+
 ## 0.1.3
 
 - Add Development section to README

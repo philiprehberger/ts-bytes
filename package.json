@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/bytes-ts",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Parse and format byte sizes for humans",
   "type": "module",
   "main": "./dist/index.cjs",
