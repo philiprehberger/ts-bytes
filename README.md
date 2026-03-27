@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-bytes/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-bytes/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/bytes-ts.svg)](https://www.npmjs.com/package/@philiprehberger/bytes-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-bytes)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Parse and format byte sizes for humans
 
