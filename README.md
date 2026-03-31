@@ -1,9 +1,8 @@
 # @philiprehberger/bytes-ts
 
-[![CI](https://github.com/philiprehberger/ts-bytes/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-bytes/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/bytes-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/bytes-ts/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/bytes-ts.svg)](https://www.npmjs.com/package/@philiprehberger/bytes-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-bytes)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/bytes-ts)](https://github.com/philiprehberger/bytes-ts/commits/main)
 
 Parse and format byte sizes for humans
 
@@ -54,7 +53,6 @@ isSmallerThan('100 KB', '1 MB'); // true
 | `KB`, `MB`, `GB`, `TB`, `PB` | Decimal unit constants |
 | `KiB`, `MiB`, `GiB`, `TiB`, `PiB` | Binary unit constants |
 
-
 ## Development
 
 ```bash
@@ -63,6 +61,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/bytes-ts)
+
+🐛 [Report issues](https://github.com/philiprehberger/bytes-ts/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/bytes-ts/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
