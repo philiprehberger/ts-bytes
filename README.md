@@ -42,6 +42,36 @@ isLargerThan('1 GB', '500 MB');  // true
 isSmallerThan('100 KB', '1 MB'); // true
 ```
 
+### Range Validation
+
+```ts
+import { isWithin } from '@philiprehberger/bytes-ts';
+
+isWithin('500 MB', '100 MB', '1 GB'); // true
+isWithin('2 GB', '100 MB', '1 GB');   // false
+isWithin(5000, 0, '10 KB');           // true
+```
+
+### Arithmetic
+
+```ts
+import { addBytes, subtractBytes } from '@philiprehberger/bytes-ts';
+
+addBytes('1 GB', '500 MB');      // 1500000000
+subtractBytes('1 GB', '500 MB'); // 500000000
+addBytes(1024, '1 KB');          // 2024
+```
+
+### Usage Formatting
+
+```ts
+import { formatUsage } from '@philiprehberger/bytes-ts';
+
+formatUsage('750 MB', '1 GB');   // "75% of 1 GB"
+formatUsage('3 GB', '10 GB');    // "30% of 10 GB"
+formatUsage(500000, '1 MB');     // "50% of 1 MB"
+```
+
 ## API
 
 | Function | Description |
@@ -50,6 +80,10 @@ isSmallerThan('100 KB', '1 MB'); // true
 | `formatBytes(bytes, options?)` | Format bytes to a human-readable string |
 | `isLargerThan(a, b)` | Compare two byte values |
 | `isSmallerThan(a, b)` | Compare two byte values |
+| `isWithin(value, min, max)` | Check if a byte value falls within a range |
+| `addBytes(a, b)` | Add two byte values together |
+| `subtractBytes(a, b)` | Subtract byte value b from a |
+| `formatUsage(used, total)` | Format usage as percentage string |
 | `KB`, `MB`, `GB`, `TB`, `PB` | Decimal unit constants |
 | `KiB`, `MiB`, `GiB`, `TiB`, `PiB` | Binary unit constants |
 

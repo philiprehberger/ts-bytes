@@ -59,4 +59,20 @@ describe('bytes-ts', () => {
   it('should export PiB', () => {
     assert.ok(mod.PiB);
   });
+
+  it('should export isWithin', () => {
+    assert.ok(mod.isWithin);
+  });
+
+  it('should export addBytes', () => {
+    assert.ok(mod.addBytes);
+  });
+
+  it('should export subtractBytes', () => {
+    assert.ok(mod.subtractBytes);
+  });
+
+  it('should export formatUsage', () => {
+    assert.ok(mod.formatUsage);
+  });
 });

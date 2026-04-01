@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0
+
+- Add byte range validation with isWithin()
+- Add comparison helpers: isLargerThan(), isSmallerThan()
+- Add byte arithmetic: addBytes(), subtractBytes()
+- Add usage percentage formatting with formatUsage()
+
 ## 0.1.5
 
 - Standardize README to 3-badge format with emoji Support section
